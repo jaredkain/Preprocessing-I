@@ -78,6 +78,25 @@ html, body {
 }
 
 header {
-
+	width: 100%;
 }
 
+header nav {
+	display: flex;
+	justify-content: center;
+
+	// Medium screen styling
+	@media (max-width: 800px) {
+		width: 100%;
+		background: black;
+	}
+
+	// Small screen styling
+	@media (max-width: 500px) {
+		width: 80%;
+		background: green;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	  }
+}
