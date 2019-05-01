@@ -106,6 +106,8 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
 ol,
 ul {
@@ -135,7 +137,7 @@ body {
   height: 100%;
 }
 .container {
-  width: 1000px;
+  width: 900px;
   margin: 0 auto;
 }
 header nav {
@@ -145,4 +147,25 @@ header nav {
 header a {
   color: darkgray;
   text-decoration: none;
+  margin-top: 20px;
+  padding: 2%;
+}
+.intro {
+  background-color: lightgray;
+  width: 100%;
+}
+.intro-content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.intro-content .intro-top {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-left: 5%;
+}
+.intro-content .intro-top h1 {
+  font-size: 3rem;
+}
+.intro-content .intro-top p {
+  padding-top: 2%;
 }
